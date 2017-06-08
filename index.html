@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Nik Rosales | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Some META About dev5forty -->
+    <meta name="keywords" content="design strategy, interaction design, design thinking, nikho rosales, design" />
+    <meta name="description" content="nik rosales, creating unique customer and user experiences. I am a developer 
+    and brand engineers that provide companies with strategic marketing, design and branding solutions.  
+    Work includes identity, branding, information design, web design, illustration, software design, icon design, 
+    and multimedia work." />
+    <meta name="author" content="nik rosales | web developer" />
+    <meta name="copyright" content="nikhorosales.com, Copyright (c) 2017" />
+
+    <!-- JS Loading Screen Dep-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+    <!-- Core CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Materialized CSS minified Local-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <!-- Material Compiled and minified CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- Materialized Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Lalezar|Roboto" rel="stylesheet">
+    <!-- Font Awesome CSS minified -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Circle Chart Core -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js" integrity="sha256-SiHXR50l06UwJvHhFY4e5vzwq75vEHH+8fFNpkXePr0="
+        crossorigin="anonymous"></script>
+    <!-- Map Box -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' />
+
+</head>
+
+<body>
+    <div class="se-pre-con"></div>
+    <header>
+        <div>
+            <ul id="slide-out" class="side-nav custom-side-nav">
+                <li><a href="#!">First Sidebar Link</a></li>
+                <li><a href="#!">Second Sidebar Link</a></li>
+            </ul>
+            <div class="custom-menu-hamburger">
+                <a id="fixed-btn" href="#" data-activates="slide-out" class="btn-floating button-collapse show-on-large white"><i class="material-icons" style="color: #263238;">menu</i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero-my-way">
+        <div class="container">
+            <h5 class="hello-title">Hello, I'm <span class="red-highlight">Nik</span> and </h5>
+            <h1 class="hero-title">I <span class="gradient-words-blue">TEAM </span> UP WITH CLIENTS TO
+                <span class="gradient-words-green">MAKE</span> MEANINGFUL DIGITAL
+                <span class="gradient-words-red"> EXPERIENCES</span>.</h1>
+            <p class="hero-learn-more"><a href="#service-section" class="waves-effect waves-green btn-flat">Learn More &darr;</a></p>
+        </div>
+    </section>
+    <section id="service-section" class="my-services">
+        <div class="container">
+            <div class="row">
+                <div class="col s4">
+                    <div class="large-headings title-1">
+                        <h1 class="line-adjust">01</h1>
+                        <h1 class="line-adjust"><span class="heading-highlight">SERVICES</span></h1>
+                    </div>
+                </div>
+                <div class="col s4 individual-services">
+                    <h4><i class="fa fa-bolt fa-2x" aria-hidden="true"></i></h4>
+                    <h5>Strategy & Planning</h5>
+                    <p>Let's innovate and get ahead. By understanding your business goals and validate opportunities with fresh
+                        understanding of what your customers need most.</p>
+                </div>
+                <div class="col s4 individual-services">
+                    <h4><i class="fa fa-crop fa-2x" aria-hidden="true"></i></h4>
+                    <h5>Design</h5>
+                    <p>Finding the right insights to guide rapid design iteration is a vital step towards delivering exceptional
+                        value. Your application will be designed and coded 100% to your specifications</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s4 individual-services">
+                    <h4><i class="fa fa-wordpress fa-2x" aria-hidden="true"></i></h4>
+                    <h5>CMS</h5>
+                    <p>I will integrate easy to use Content Management Software built around security and speed. WordPress is
+                        the web's go-to CMS, but we can use whatever is needed for your application.
+                    </p>
+                </div>
+
+                <div class="col s4 individual-services">
+                    <h4><i class="fa fa-code fa-2x" aria-hidden="true"></i></h4>
+                    <h5>Development</h5>
+                    <p>Let's turn your vision into reality with exceptional software development, engineering and execution
+                        sets your company apart. My development process is transparent and iterative. </p>
+                </div>
+
+                <div class="col s4 individual-services">
+                    <h4><i class="fa fa-rocket fa-2x" aria-hidden="true"></i></h4>
+                    <h5>Launch</h5>
+                    <p>From start to finish. Once all the i's have been dotted, I will help you launch your new website or application
+                        to make sure everything goes according to plan. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="my-stats">
+        <div class="container stat-section">
+            <div class="row">
+                <div class="col s4">
+                    <div class="large-headings title-2">
+                        <h1 class="line-adjust">02</h1>
+                        <h1 class="line-adjust"><span class="heading-highlight">STATS</span></h1>
+                    </div>
+                </div>
+
+                <div class="col s8">
+                    <canvas id="myDonut" width="309" height="154" style="display: block; width: 309px; height: 154px;"></canvas>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col s4">
+                    <section class="four-square who-am-i">
+                        <h5>Personal Statement</h5>
+                        <p><span class="dropcap">I</span>'d like for you to think of me as an extension of your team rather
+                            than a consultant. Working together is a beautiful love story where we meet, become bffs, communicate,
+                            set expectations, learn to trust each other, and work together as a team.</p>
+                        <p>One of our time’s greatest philosophers and basketball players – Michael Jordan – says: “Talent wins
+                            games, but teamwork wins championships.” My process is transparent and iterative, so you’ll always
+                            know when and why I am researching, brainstorming, concepting, sketching, designing and programming.
+                            <p>
+                    </section>
+                </div>
+                <div class="col s8">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="my-contact-info">
+        <div class="container ">
+            <div class="row">
+                <div class="col s4">
+                    <div class="large-headings title-3">
+                        <h1 class="line-adjust">03</h1>
+                        <h1 class="line-adjust"><span class="heading-highlight">CONTACT</span></h1>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <h5>Let's get to work!</h5>
+                    <h6>&#10095; <span class="red-highlight">hire</span>@rosales.io</h6>
+                    <h5>For general inequiries</h5>
+                    <h6>&#10095; <span class="red-highlight">hello</span>@rosales.io</h6>
+                    <h5>If you really need to hear my voice</h5>
+                    <h6>&#10095; <span class="red-highlight">540</span>.429.9978</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div id='map' style='width: auto; height: 300px;'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="my-latest-blog" class="">
+        <div class="container">
+            <div class="row">
+                <div class="col s4">
+                    <div class="large-headings title-4">
+                        <h1 class="line-adjust">04</h1>
+                        <h1 class="line-adjust"><span class="heading-highlight">MUSING</span></h1>
+                    </div>
+                </div>
+                <div class="col s4">
+                    <div class="blog-list">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/img/blog_1.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p><a href="#">Read More &rarr;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s4">
+                    <div class="blog-list">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/img/blog_1.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title 2<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p><a href="#">Read More &rarr;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4">
+                    <div class="blog-list">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/img/blog_3.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p><a href="#">Read More &rarr;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s4">
+                    <div class="blog-list">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="assets/img/blog_1.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p><a href="#">Read More &rarr;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s4 read-more-card">
+                    <div class="blog-list">
+                        <p class="hero-learn-more"><a href="blog.html" class="waves-effect waves-green btn-flat">See More &rarr;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page-footer green lighten-2 blue-grey-text text-darken-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5>Footer Content</h5>
+                        <p>You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5>Around the Web</h5>
+                        <ul>
+                            <li><a class="blue-grey-text text-darken-4" href="#!">Link 1</a></li>
+                            <li><a class="blue-grey-text text-darken-4" href="#!">Link 2</a></li>
+                            <li><a class="blue-grey-text text-darken-4" href="#!">Link 3</a></li>
+                            <li><a class="blue-grey-text text-darken-4" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright blue-grey-text text-darken-4">
+                <div class="container">
+                    © 2017 | <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart" aria-hidden="true"></i>                    in San Antonio, Texas
+                    <a class="blue-grey-text text-darken-4 right" href="#!">rosales.io</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS Core -->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="js/materialize.min.js"></script>
+        <!-- 3rd Party Scrolling -->
+        <script src="js/zenscroll-min.js"></script>
+        <!-- Circle Chart Core -->
+        <script src="js/chart.js"></script>
+        <!-- Map Box JS Code -->
+        <script src="js/mapbox.js"></script>
+
+</body>
+
+</html>
