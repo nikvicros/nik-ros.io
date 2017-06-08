@@ -14,11 +14,13 @@ $(document)
     // smaller screens intead
     $(".button-collapse").sideNav();
 
+    //Image Car
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+
     // Tooltip
     $('.tooltipped').tooltip({delay: 50});
 
     // Staggered List
-
     var options = [
       {
         selector: '.title-1',
