@@ -210,21 +210,24 @@ Hero Section
 }
 
 /*--------------------
+00 ABOUT
+---------------------*/
+#about-me {
+    background-color: rgba(26, 188, 156,0.1)
+}
+
+
+/*--------------------
 01 SERVICES
 ---------------------*/
 
-.my-services {
-    background-color: rgba(26, 188, 156,0.1)
-}
 
 .individual-services {
     width: 200px;
     height: 250px;
 }
 
-.my-services {
-    background-color: rgba(26, 188, 156,0.1)
-}
+
 
 
 /*--------------------
@@ -234,6 +237,7 @@ Hero Section
 #my-stats {
     font-family: 'Coda', monospace;
     color: #263238;
+    background-color: rgba(26, 188, 156,0.1)
 }
 
 .who-am-i {
@@ -245,17 +249,18 @@ Hero Section
 
 
 
+
 /*--------------------
 03 CONTACT
 ---------------------*/
-.my-contact-info {
-    background-color: rgba(26, 188, 156,0.1)
-}
+
 
 /*--------------------
 04 MUSING
 ---------------------*/
-
+#my-latest-musings {
+    background-color: rgba(26, 188, 156,0.1)
+}
 
 /*--------------------
 FOOTER
