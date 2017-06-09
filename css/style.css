@@ -25,8 +25,7 @@ Style located in Chart.js
 Global CSS 
 ---------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i,800');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,600i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
 
 /*--------------------
@@ -69,6 +68,7 @@ li {
 
 body {
     background-color: whitesmoke;
+    color:#263238;
 }
 
 section {
@@ -76,8 +76,7 @@ section {
 }
 
 .section-title {
-    font-style: bold;
-    font-weight: 600;
+    font-weight: 700;
     padding: 5px;
     width: 205px;
     color: white;
@@ -212,6 +211,9 @@ Hero Section
     background-color: white;
 }
 
+.quick-info-styling {
+    font-weight: 400;
+}
 
 /*--------------------
 01 SERVICES
