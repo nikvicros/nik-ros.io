@@ -1,9 +1,4 @@
 /*-----REFERENCES------
-font-family: 'Lalezar', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Inconsolata', monospace;
-
------
 Main: http://colorhunt.co/c/15697
 Secondary: http://colorhunt.co/c/72112
 -----
@@ -30,9 +25,9 @@ Style located in Chart.js
 Global CSS 
 ---------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lalezar|Roboto');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i,800');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
 
 /*--------------------
 Loader
@@ -53,20 +48,22 @@ Loader
 h1,
 h2,
 h3 {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #263238;
 }
 
 h4,
 h5,
 h6 {
-    font-family: 'Merriweather Sans', sans-serif;;
+    font-family: 'Raleway', sans-serif;
+    color: #263238;
 }
 
 p,
 a,
 ul,
 li {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #263238;
 }
 
@@ -79,7 +76,8 @@ section {
 }
 
 .section-title {
-    font-size: 2em;
+    font-style: bold;
+    font-weight: 600;
     padding: 5px;
     width: 205px;
     color: white;
@@ -95,7 +93,7 @@ section {
 .dropcap {
   color: #263238;
   float: left;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 5em;
   line-height: 60px;
   padding-top: 4px;
@@ -169,7 +167,6 @@ Hero Section
     padding: 5px;
     width: 300px;
     color: white;
-    border: 1px solid #263238;
     background-color: #263238;
 }
 
@@ -227,8 +224,6 @@ Hero Section
 }
 
 
-
-
 /*--------------------
 02 STATS
 ---------------------*/
@@ -249,6 +244,18 @@ Hero Section
 03 CONTACT
 ---------------------*/
 
+
+
+/*--------------------
+04 CLIENTS
+---------------------*/
+img.grayscale {
+    filter: grayscale(1);
+}
+
+#client {
+    background-color: white;
+}
 /*--------------------
 FOOTER
 ---------------------*/

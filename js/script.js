@@ -22,6 +22,13 @@ $(document)
 
     // Staggered List
     var options = [
+        {
+        selector: '.title-0',
+        offset: 0,
+        callback: function (el) {
+          Materialize.fadeInImage($(el));
+        }
+      },
       {
         selector: '.title-1',
         offset: 0,
