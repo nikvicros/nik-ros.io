@@ -110,6 +110,7 @@ section {
 }
 
 .large-headings {
+    font-weight: 700;
     font-size: 5em;
     color: rgba(52, 73, 94,0.6);
     padding: 20px;
