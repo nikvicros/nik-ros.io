@@ -31,9 +31,8 @@ Global CSS
 ---------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Lalezar|Roboto');
-@import url('https://fonts.googleapis.com/css?family=Coda:400,800&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-@import url('https://fonts.googleapis.com/css?family=Bitter:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i,800');
 
 /*--------------------
 Loader
@@ -54,13 +53,13 @@ Loader
 h1,
 h2,
 h3 {
-    font-family: 'Bitter', serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 h4,
 h5,
 h6 {
-    font-family: 'Bitter', serif;
+    font-family: 'Merriweather Sans', sans-serif;;
 }
 
 p,
@@ -96,7 +95,7 @@ section {
 .dropcap {
   color: #263238;
   float: left;
-  font-family: 'Bitter', serif;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 5em;
   line-height: 60px;
   padding-top: 4px;
@@ -120,7 +119,7 @@ section {
 }
 
 .line-adjust {
-    line-height: 30%;
+    line-height: 45%;
 }
 
 .heading-highlight {
@@ -168,7 +167,7 @@ Hero Section
 .hello-title {
     font-size: 2em;
     padding: 5px;
-    width: 270px;
+    width: 300px;
     color: white;
     border: 1px solid #263238;
     background-color: #263238;
@@ -213,7 +212,7 @@ Hero Section
 00 ABOUT
 ---------------------*/
 #about-me {
-    background-color: rgba(26, 188, 156,0.1)
+    background-color: white;
 }
 
 
@@ -237,7 +236,7 @@ Hero Section
 #my-stats {
     font-family: 'Coda', monospace;
     color: #263238;
-    background-color: rgba(26, 188, 156,0.1)
+    background-color: white;
 }
 
 .who-am-i {

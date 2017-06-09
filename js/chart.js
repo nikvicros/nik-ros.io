@@ -39,7 +39,7 @@ var myChart = new Chart(ctx, {
         title: {
             display: true,
             text: 'Technical Summary',
-            fontFamily: "'Bitter', 'serif'",
+            fontFamily: "'Merriweather Sans', 'sans-serif'",
             fontSize: 24,
             fontColor: '#263238'
         },
@@ -85,7 +85,7 @@ var myRadarChart = new Chart(ctx2, {
         title: {
             display: true,
             text: 'My Typical Week',
-            fontFamily: "'Bitter', 'serif'",
+            fontFamily: "'Merriweather Sans', 'sans-serif'",
             fontSize: 24,
             fontColor: '#263238'
         }
