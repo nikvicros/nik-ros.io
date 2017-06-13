@@ -10,7 +10,13 @@ $(document).ready(function () {
 
   // Button Collapse on Nav Menu when resized, adds side nav functionality on
   // smaller screens intead
-  $(".button-collapse").sideNav();
+    $('.button-collapse').sideNav({
+      menuWidth: 300, 
+      edge: 'left', // menu incoming direction
+      closeOnClick: true, 
+      draggable: true // Mobile / Teouch screen drag. 
+    }
+  );
 
   //Image Car
   $('.carousel.carousel-slider').carousel({fullWidth: true});

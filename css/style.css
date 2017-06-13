@@ -1,29 +1,3 @@
-/*-----REFERENCES------
-Main: http://colorhunt.co/c/15697
-Secondary: http://colorhunt.co/c/72112
------
----------------------*/
-
-
-/*--------------------
-Table of Contents
-a. Global Styles
-b. Side Hav
-c. Header Styles
----------------------*/
-
-/*----- CIRCLE GRAPH  
-Style located in Chart.js
-------------------*/
-
-
-/*----- BAR GRAPH  
-Style located in Chart.js
-------------------*/
-
-/*--------------------
-Global CSS 
----------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,600i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
@@ -43,6 +17,11 @@ Loader
 	z-index: 9999;
 	background: url(../assets/img/rubix_loader.gif) center no-repeat #fff; 
 }
+
+/*--------------------
+Global CSS 
+---------------------*/
+
 
 h1,
 h2,
@@ -276,8 +255,13 @@ Media Queries
 
 @media only screen and (max-width: 400px) {
     .hero-title {
-        font-size: 400%;
+        font-size: 3.0em;
     }
+
+    .title-2 {
+        font-size: .5em; 
+    }
+  
 }
 
 
